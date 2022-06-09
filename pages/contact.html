@@ -32,25 +32,21 @@
     </header>
     <main>
         <section class="section">
-            <form action="" method="get" enctype="text/plain">
-                <fieldset class="section__login">
-                    <div>
-                        <label for="username">Name</label>
-                        <input type="text" id="username" name="username" required>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="comment">Comment</label>
-                        <textarea class="contact__comment" id="contact_comment" name="contact_comment" required></textarea>
-                    </div>
-                    <br>
-                    <button type="submit">Enviar</button>
-                </fieldset>
+            <form class="was-validated">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="validationTextarea" class="form-label">Comment</label>
+                  <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Hello World" required></textarea>
+                  <div class="invalid-feedback">
+                    Please enter a message.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <button class="btn btn-primary" type="submit" enabled>Send</button>
+                </div>
             </form>
         </section>
     </main>

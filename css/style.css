@@ -36,8 +36,8 @@ li{
     flex-wrap: wrap;
 }
 .section__card{
-    width: 10%;
-    padding: 1rem 15rem;
+    width: 20%;
+    padding: 1rem 1rem;
     margin: 1rem;
     background-color: #546a7b;
     border-radius: 0.2rem;

@@ -5,7 +5,9 @@
 }
 body{
     font-family: 'Electrolize', sans-serif;
-    background-color: #c6c5b9;
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 }
 a{
     text-decoration: none;
@@ -20,6 +22,16 @@ nav{
 }
 li{
     margin: 0 1rem;
+}
+.logo{
+    width: 10rem;
+    top: 1rem;
+}
+.main__text{
+    color: white;
+}
+.social__img{
+    width: 2rem;
 }
 .navbar{
     display: flex;

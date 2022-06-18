@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
 </head>
-<body class="cuerpo">
-    <header class="cuerpo__header">
-        <nav class="navbar navbar-expand-lg">
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img class="logo" src="./assets/Logo.png" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,33 +30,52 @@
             </div>
         </nav>
     </header>
-    <main class="cuerpo__main">
-        <section class="section">
-            <div class="section__video">
-                <video autoplay loop muted src="./assets/mainvideo.mp4"></video>
-            </div>
-        </section>
-        <section class="section">
-            <div class="section__card card">
-                <img class="section__img card-img-top" src="./assets/maincase1.png" alt="maincase">
-                <div class="card-body">
-                    <h1 class="card-text">
-                        Case
-                    </h1>
-                    <p class="text-center card-text">
-                        The case is an aesthetically pleasing home for all your PC components. MACHINE ON cases have channels to allow for clean cable management and an easy build.
-                    </p>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <img class="col-6" src="./assets/assasing-case.png" alt="assasing-case">
+                </div>
+                <div class="row justify-content-center">
+                    <h1 class="col-9 text-center main__text">Designed for now. Ready for what's next.</h1>
                 </div>
             </div>
         </section>
+        <br><br><br><br><br><br><br>
+        <section>
+            <div>
+                <h1 class="text-center main__text">NEW ARRIVALS</h1>
+            </div>
+            <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/cyberpunk.png" class="d-block w-100" alt="cyberpunk">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/wow.png" class="d-block w-100" alt="sixsiege">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/plusultra.png" class="d-block w-100" alt="plusultra">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
     </main>
-    <footer class="cuerpo__footer">
-        <nav>
-            <ul class="navbar__footer">
-                <li><a href="https://www.instagram.com"><img class="social__img" src="./assets/instagram.png" alt="Instagram"></a></li>
-                <li><a href="https://es-la.facebook.com"><img class="social__img" src="./assets/facebook.png" alt="Facebook"></a></li>
-                <li><a href="https://ar.linkedin.com"><img class="social__img" src="./assets/linkedin.png" alt="LinkedIn"></a></li>
-                <li><a href="https://twitter.com"><img class="social__img" src="./assets/gorjeo.png" alt="Twitter"></a></li>
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <ul class=" container-fluid nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com"><img class="social__img" src="./assets/instagram.png" alt="Instagram"></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://es-la.facebook.com"><img class="social__img" src="./assets/facebook.png" alt="Facebook"></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://ar.linkedin.com"><img class="social__img" src="./assets/linkedin.png" alt="LinkedIn"></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://twitter.com"><img class="social__img" src="./assets/gorjeo.png" alt="Twitter"></a></li>
             </ul>
         </nav>
     </footer>

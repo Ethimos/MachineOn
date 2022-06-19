@@ -26,6 +26,9 @@ nav {
 li {
   margin: 0 1rem; }
 
+.index__card {
+  color: white; }
+
 .logo {
   width: 10rem;
   top: 1rem; }

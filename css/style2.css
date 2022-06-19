@@ -110,7 +110,11 @@ video {
   width: 100%;
   padding: 5rem 20rem;
   margin: 0rem 0rem;
-  background-color: #000;
+  background: #141616;
+  background: -moz-radial-gradient(circle, #141616 12%, #43314f 100%);
+  background: -webkit-radial-gradient(circle, #141616 12%, #43314f 100%);
+  background: radial-gradient(circle, #141616 12%, #43314f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141616",endColorstr="#43314f",GradientType=1);
   color: #fdfdff;
   display: flex;
   flex-direction: column;

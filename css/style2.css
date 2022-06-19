@@ -95,7 +95,12 @@ video {
 .section__card__img {
   padding: 1rem 1rem;
   margin: 1rem;
-  background-color: #546a7b;
+  color: white;
+  background: #141616;
+  background: -moz-radial-gradient(circle, #141616 12%, #43314f 100%);
+  background: -webkit-radial-gradient(circle, #141616 12%, #43314f 100%);
+  background: radial-gradient(circle, #141616 12%, #43314f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141616",endColorstr="#43314f",GradientType=1);
   border-radius: 0.2rem;
   display: flex;
   flex-direction: column;

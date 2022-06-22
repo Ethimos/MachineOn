@@ -83,31 +83,24 @@ li {
     justify-items: center;
     grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
 
-.section__about {
+.section__about, .section__about__p {
   width: 100%;
   padding: 5rem 10rem;
   margin: 0rem 0rem;
-  background: #141616;
-  background: -moz-radial-gradient(circle, #141616 12%, #43314f 100%);
-  background: -webkit-radial-gradient(circle, #141616 12%, #43314f 100%);
-  background: radial-gradient(circle, #141616 12%, #43314f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141616",endColorstr="#43314f",GradientType=1);
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center; }
 
 .section__about__p {
-  width: 100%;
-  padding: 5rem 10rem;
-  margin: 0rem 0rem;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  background: #141616;
+  background: -moz-radial-gradient(circle, #141616 12%, #43314f 100%);
+  background: -webkit-radial-gradient(circle, #141616 12%, #43314f 100%);
+  background: radial-gradient(circle, #141616 12%, #43314f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141616",endColorstr="#43314f",GradientType=1); }
 
 @media screen and (max-width: 768px) {
-  .section__about {
+  .section__about, .section__about__p {
     width: 100%;
     padding: 5rem 10rem;
     margin: 0rem 0rem;
@@ -124,7 +117,7 @@ li {
     align-items: center; } }
 
 @media screen and (max-width: 560px) {
-  .section__about {
+  .section__about, .section__about__p {
     width: 100%;
     padding: 5rem 1rem;
     margin: 0rem 0rem;

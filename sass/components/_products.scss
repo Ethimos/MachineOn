@@ -11,11 +11,7 @@
     padding: 1rem 1rem;
     margin: 1rem;
     color: map-get($palet , "text");
-    background: rgb(20,22,22);
-    background: -moz-radial-gradient(circle, rgba(20,22,22,1) 12%, rgba(67,49,79,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(20,22,22,1) 12%, rgba(67,49,79,1) 100%);
-    background: radial-gradient(circle, rgba(20,22,22,1) 12%, rgba(67,49,79,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141616",endColorstr="#43314f",GradientType=1);
+    @include back;
     border-radius: 0.2rem;
     display: flex;
     flex-direction: column;

@@ -2,24 +2,14 @@
     width: 100%;
     padding: 5rem 10rem;
     margin: 0rem 0rem;
-    background: rgb(20,22,22);
-    background: -moz-radial-gradient(circle, rgba(20,22,22,1) 12%, rgba(67,49,79,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(20,22,22,1) 12%, rgba(67,49,79,1) 100%);
-    background: radial-gradient(circle, rgba(20,22,22,1) 12%, rgba(67,49,79,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141616",endColorstr="#43314f",GradientType=1);
     color: map-get($palet, "text");
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .section__about__p{
-    width: 100%;
-    padding: 5rem 10rem;
-    margin: 0rem 0rem;
-    color: map-get($palet, "text");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .section__about;
+    @include back;
 }
 @media screen and (max-width: 768px){
     .section__about{
